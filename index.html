@@ -21,6 +21,39 @@
       border-radius: 10px;
       border: 1px solid #ccc;
     }
+  </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>IEEE Launch Pad Kerala Newsletter</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f1f1f1;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 100vw;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      opacity: 0;
+      transition: opacity 1s;
+    }
 
     .fade-in {
       opacity: 1 !important;
@@ -131,4 +164,43 @@
     <ul>
       <li>Increased Participation: The event has seen a significant increase in participation over the years, with more
         students and young professionals joining the community.</li>
-      <li>Expanded Network: IEEE LaunchPad Kerala has established partnershi
+      <li>Expanded Network: IEEE LaunchPad Kerala has established partnerships with various organizations, institutions,
+        and industry leaders, further expanding its reach and impact.</li>
+    </ul>
+
+    <h2>Event Roadmap</h2>
+    <div class="timeline">
+      <div class="event">
+        <span class="event-date">1. Registration</span>
+        <p class="event-description">Register on the LaunchPad website.</p>
+      </div>
+      <div class="event">
+        <span class="event-date">2. Join the Community</span>
+        <p class="event-description">Join the Gtech Mulearn Discord Server.</p>
+      </div>
+      <div class="event">
+        <span class="event-date">3. Technical Challenge</span>
+        <p class="event-description">Complete the challenges and earn Karma Points to improve your skills and increase
+          the chance of getting hired.</p>
+      </div>
+      <div class="event">
+        <span class="event-date">4. Online Aptitude Test</span>
+        <p class="event-description">Put your abilities to the test in our online assessment.</p>
+      </div>
+      <div class="event">
+        <span class="event-date">5. Final Interview</span>
+        <p class="event-description">As the final stage of the selection process, gear up for the interview and get
+          hired.</p>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const newsletter = document.getElementById('newsletter');
+        newsletter.classList.add('fade-in');
+      });
+    </script>
+
+</body>
+
+</html>
